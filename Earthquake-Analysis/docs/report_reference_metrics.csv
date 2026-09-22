@@ -1,0 +1,19 @@
+model,target,split,ME,RMSE,MAE,MPE,MAPE
+Linear Regression,Magnitude,train,0.0000,0.4225,0.3138,-0.4627,5.1648
+Linear Regression,Magnitude,validation,0.0018,0.4222,0.3129,-0.4302,5.1469
+Linear Regression,Depth,train,-0.0000,119.2753,67.3548,,
+Linear Regression,Depth,validation,0.7313,120.1025,68.2586,,
+KNN (k=6),Magnitude,train,-0.0040,0.3795,0.2788,-0.4400,4.6022
+KNN (k=6),Magnitude,validation,-0.0019,0.4485,0.3305,-0.4779,5.4515
+KNN (k=6),Depth,train,0.3091,62.5598,29.1432,,
+KNN (k=6),Depth,validation,0.8147,74.8587,36.2240,,
+Random Forest Regression,Magnitude,train,-0.0020,0.1639,0.1192,-0.1983,1.9666
+Random Forest Regression,Magnitude,validation,-0.0031,0.4375,0.3204,-0.4944,5.2817
+Random Forest Regression,Depth,train,-0.0608,18.7223,8.3486,,
+Random Forest Regression,Depth,validation,-0.2764,51.1378,23.3435,,
+Support Vector Regression,Magnitude,validation,0.1179,0.4385,0.2936,1.5609,4.7213
+Support Vector Regression,Depth,validation,21.3201,92.3412,42.9211,,
+Neural Network,Magnitude,train,-0.0003,0.4230,0.3142,-0.4645,5.1730
+Neural Network,Magnitude,validation,0.0013,0.4237,0.3142,-0.4364,5.1710
+Neural Network,Depth,train,-1.9510,98.4899,58.5048,,
+Neural Network,Depth,validation,-1.8096,98.7984,59.3372,,

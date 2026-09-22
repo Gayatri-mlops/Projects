@@ -1,0 +1,18 @@
+{
+  "earthquakes": {
+    "kaggle_handle": "usgs/earthquake-database",
+    "expected_filename": "database.csv",
+    "expected_rows": 23412,
+    "expected_columns": 21,
+    "years": "1965-2016",
+    "source_url": "https://www.kaggle.com/datasets/usgs/earthquake-database"
+  },
+  "tectonic_plates": {
+    "kaggle_handle": "cwthompson/tectonic-plate-boundaries",
+    "expected_filename": "all.csv",
+    "expected_rows": 12321,
+    "expected_columns": 3,
+    "plate_count_reported": 56,
+    "source_url": "https://www.kaggle.com/datasets/cwthompson/tectonic-plate-boundaries"
+  }
+}

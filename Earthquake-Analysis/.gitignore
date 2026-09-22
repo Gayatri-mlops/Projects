@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Downloaded data (use scripts/download_data.py)
+data/raw/*.csv
+data/raw/*.zip
+!data/raw/.gitkeep
+
+# Generated outputs
+outputs/*.png
+outputs/*.html
+outputs/*.csv
+outputs/*.json
+!outputs/.gitkeep
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
